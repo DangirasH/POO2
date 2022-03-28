@@ -15,9 +15,9 @@ echo $car->forward();
 require_once 'Truck.php';
 $mytruck = new Truck(100,'red',3,'fuel');
 
-echo $mytruck->forward()."Power Rangers <br>";
-echo $mytruck->brake()."<br>";
-echo $mytruck->cargoState() .'<br>';
+echo $myTruck->forward()."Power Rangers <br>";
+echo $myTruck->brake()."<br>";
+echo $myTruck->cargoState() .'<br>';
 
-$mytruck->setCargo(100);
-echo $mytruck->cargoState() ."<br>";
+$myTruck->setCargo(100);
+echo $myTruck->cargoState() ."<br>";
